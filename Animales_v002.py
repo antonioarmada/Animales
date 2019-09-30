@@ -27,6 +27,8 @@ velocSol=80
 gameDisplay = pygame.display.set_mode((display_width,display_height),pygame.FULLSCREEN) #,pygame.RESIZABLE ,pygame.FULLSCREEN
 pygame.display.set_caption('ANIMALES')
 
+ 
+
 black = (0,0,0)
 white = (255,255,255)
 red = (255,0,0)
@@ -36,6 +38,8 @@ slideActual=0
 mouseX, mouseY = pygame.mouse.get_pos()
 
 clock = pygame.time.Clock()
+
+
 
 class Sprite_animado:
 	frame= 1 #aca pongo  atributos comunes a todos las instancias de esta clase no va self
@@ -64,18 +68,18 @@ class Sprite_animado:
 			self.sonido.fadeout(300)
 
 
-
 def game_loop():
-	x =  (display_width * 0.45)
-	y = (display_height * 0.8)
+	"""x =  (display_width * 0.45)
+	y = (display_height * 0.8)"""
+
 	frameDer=0
 	frameIzq=0
 	cuadranteReproduciendo=0
 
 	global frameGeneral
 	global slideActual
-	solX=80
-	solXactual=solX
+
+	solXactual=XsolCent
 
 	iniciaColicion=True
 
@@ -102,19 +106,19 @@ def game_loop():
 					slideActual+=1
 			if event.type == pygame.MOUSEMOTION:
 				mouseX, mouseY = pygame.mouse.get_pos()
-				if mouseX < display_width*0.38:
-					solX= (display_width*.29)-sol.anchoFrame/2
+				if mouseX < XcuadranteIzq:
+					solX= XsolIzq
 					cuadrante=0
 					frameDer=0
-				elif mouseX > display_width*0.6:
-					solX= (display_width/2)+sol.anchoFrame
+				elif mouseX > XcuadranteDer:
+					solX= XsolDer
 					cuadrante=1
 					frameIzq=0
 				else:
 					cuadrante=2
 					frameIzq=0
 					frameDer=0
-					solX= (display_width*.27)+sol.anchoFrame
+					solX= XsolCent
 
 		# Desplaza Sol
 		if solX>solXactual:
@@ -150,8 +154,8 @@ def game_loop():
 		if slideActual > 2: 
 			slideActual=2
 
-		slidesAnimales[slideActual][0].mostrar(170,350,frameIzq,False)
-		slidesAnimales[slideActual][1].mostrar(820,350,frameDer,False)
+		slidesAnimales[slideActual][0].mostrar(XanimalIzq,Yanimales,frameIzq,False)
+		slidesAnimales[slideActual][1].mostrar(XanimalDer,Yanimales,frameDer,False)
 
 		
 		if not cuadrante==2:
@@ -180,6 +184,18 @@ pygame.mixer.music.set_volume(0.2) #0 a 1
 pygame.mixer.music.play(-1) #-1 para loop 
 
 slidesAnimales=((gato,perro),(leon,elefante),(gallina,oveja))
+
+
+XanimalIzq =  display_width * .25 - perro.anchoFrame/2 #170
+XanimalDer = display_width *  .75 - perro.anchoFrame/2 #850 
+Yanimales = display_height * .6 - perro.alto/2
+XsolIzq =  display_width * .25 - sol.anchoFrame/2 
+XsolDer = display_width *  .75 - sol.anchoFrame/2 
+XsolCent = display_width *  .5 - sol.anchoFrame/2 
+Ysol = display_height * .6 - sol.alto/2
+XcuadranteIzq= display_width * .25 + perro.anchoFrame/2
+XcuadranteDer= display_width * .75 - perro.anchoFrame/2
+print (XanimalIzq,XanimalDer,Yanimales)
 
 
 game_loop()
