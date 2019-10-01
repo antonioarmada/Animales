@@ -6,6 +6,8 @@ Este software está siendo probado en el Servicio de Rehabilitación Psicomotora
 
 ## Cambios de versión
 
+Primera versión testeandose
+
 ## Comenzando 
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo, pruebas y uso final._
@@ -13,9 +15,9 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 ### Hardware necesario:
 
-*Opción 1: PC y webcam (utilizar un entorno bien iluminado sin contraluces). Esta configuración es barata y aunque tiene poca resolución (el software está preparado para trabajar así) y la calibración puede ser inestable de una sesión a otra.
+* Opción 1: PC y webcam (utilizar un entorno bien iluminado sin contraluces). Esta configuración es barata y aunque tiene poca resolución (el software está preparado para trabajar así) y la calibración puede ser inestable de una sesión a otra.
 
-*Opción 2: PC y Tobii 4c, esta configuración es má cara pero mejora la precisión y el guardado de los perfiles de calibración.
+* Opción 2: PC y Tobii 4c, esta configuración es má cara pero mejora la precisión y el guardado de los perfiles de calibración.
 
 
 ### Pre-requisitos
