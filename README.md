@@ -38,7 +38,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 1. Descarga o clona este respositorio 
 2. Ejectua el archivo .exe dentro de /dist/
 3. Ejecuta y calibra GazePointer seleccionando la opción para controlar el puntero.
-4. Ejecuta blabla.exe que está dentro de la carpeta _dist_
+4. Ejecuta el archivo con extensión _.exe_ que está dentro de la carpeta _dist_
 
 
 ## Deployment
