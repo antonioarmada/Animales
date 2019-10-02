@@ -1,6 +1,6 @@
 # Animales v1.0.1
 
-En el marco de [Programa de Voluntarios](http:/ciencia.chubut.gov.ar/programa-de-voluntarios/) dearrollamos un juego simple pensado para ser utilizado con seguidores de pupila de escaza resolución como Gaze Pointer o de alta resolucción como Tobii 4c, en el apoyo terapéutico de aquellos niños y niñas que tengan un compromiso motriz o neurológico, parálisis cerebral, lesión medular, enfermedades neuromusculares, distrofia muscular progresiva o traumatismos de cráneo, ya que les permite interactuar con el movimiento de sus ojos. El uso requiere asistencia del terapeuta.
+En el marco de [Programa de Voluntarios](http:/ciencia.chubut.gov.ar/programa-de-voluntarios/) de la *SECRETARÍA DE CIENCIA, TECNOLOGÍA e INNOVACIÓN PRODUCTIVA DE CHUB* dearrollamos un juego simple pensado para ser utilizado con seguidores de pupila de escaza resolución como Gaze Pointer o de alta resolucción como Tobii 4c, en el apoyo terapéutico de aquellos niños y niñas que tengan un compromiso motriz o neurológico, parálisis cerebral, lesión medular, enfermedades neuromusculares, distrofia muscular progresiva o traumatismos de cráneo, ya que les permite interactuar con el movimiento de sus ojos. El uso requiere asistencia del terapeuta.
 
 El juego es muy simple, cuando el/la paciente dirige sus ojos a uno de los animales, el sol se posa arriba y el animal se mueve y emite su sonido característico.
 
@@ -61,9 +61,9 @@ Usamos [SemVer](https://semver.org/lang/es/) para el versionado.
 
 ## Autores 
 
-* **Antonio Armada** - _Desarrollo Inicial_
-* **Viana Rossi** - _Tester_
-* **Yanina Cascon** - _Tester_
+* **Antonio Armada** - _Desarrollo Inicial_ SCTeIP de CHUBUT
+* **Viana Rossi** - _Tester_ HOSPITAL DE CHUBUT
+* **Yanina Cascon** - _Tester_ HOSPITAL DE CHUBUT
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) que participaron en este proyecto. 
 
