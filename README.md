@@ -69,10 +69,7 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 
 ## Licencia 
 
-Este proyecto está bajo la siguiente lincencia Creative Commons:
-
-_“Atribución – No Comercial – Compartir Igual (by-nc-sa): No se permite un uso comercial de la obra original ni de las posibles obras derivadas, la distribución de las cuales se debe hacer con una licencia igual a la que regula la obra original. Esta licencia no es una licencia libre.”_
-
+Este proyecto está bajo la siguiente lincencia GNU General Public License version 3.0 (GPLv3)
 
 ## Expresiones de Gratitud 
 
