@@ -2,6 +2,8 @@
 
 En el marco de [Programa de Voluntarios](http:/ciencia.chubut.gov.ar/programa-de-voluntarios/) dearrollamos un juego simple pensado para ser utilizado con seguidores de pupila de escaza resolución como Gaze Pointer o de alta resolucción como Tobii 4c, en el apoyo terapéutico de aquellos niños y niñas que tengan un compromiso motriz o neurológico, parálisis cerebral, lesión medular, enfermedades neuromusculares, distrofia muscular progresiva o traumatismos de cráneo, ya que les permite interactuar con el movimiento de sus ojos. El uso requiere asistencia del terapeuta.
 
+El juego es muy simple, cuando el/la paciente dirige sus ojos a uno de los animales, el sol se posa arriba y el animal se mueve y emite su sonido característico.
+
 Este software está siendo probado en el Servicio de Rehabilitación Psicomotora del Hospital de Trelew
 
 ## Cambios de versión
@@ -15,7 +17,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 ### Hardware necesario:
 
-* Opción 1: PC y webcam (utilizar un entorno bien iluminado sin contraluces). Esta configuración es barata y aunque tiene poca resolución (el software está preparado para trabajar así) y la calibración puede ser inestable de una sesión a otra.
+* Opción 1: PC y webcam (utilizar un entorno bien iluminado sin contraluces). Esta configuración es barata y aunque tiene poca resolución (el software está preparado para trabajar así) y la calibración puede ser inestable de una sesión a otra. Utiliza sonido.
 
 * Opción 2: PC y Tobii 4c, esta configuración es má cara pero mejora la precisión y el guardado de los perfiles de calibración.
 
