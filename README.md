@@ -36,9 +36,8 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 ### Instalación 
 
 1. Descarga o clona este respositorio 
-2. Ejectua el archivo .exe dentro de /dist/
-3. Ejecuta y calibra GazePointer seleccionando la opción para controlar el puntero.
-4. Ejecuta el archivo con extensión _.exe_ que está dentro de la carpeta _dist_
+2. Ejecuta y calibra GazePointer (webcam) o el GazePoint (tobii) seleccionando la opción para controlar el puntero.
+3. Ejecuta el archivo con extensión _.exe_ que está dentro de la carpeta _dist_
 
 
 ## Deployment
